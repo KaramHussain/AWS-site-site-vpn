@@ -1,0 +1,13 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Ignore .terraform directory
+.terraform/
+
+
+
+# Ignore provider-specific files
+*.tf.lock.hcl
+terraform.rc
